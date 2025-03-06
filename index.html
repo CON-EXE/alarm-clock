@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Connor Hall">
+        <meta name="description" content="Alarm clock">
+        <meta name="keywords" content="web development, html, css, winnipeg, Canada">
+        <title>Alarm Clock</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mrspecht/cdn/reset.css">
+        <link rel="stylesheet" href="./assets/css/main.css">
+        <script src="./assets/js/app.js" defer></script>
+    </head>
+    <body>
+        <main>
+            <section>
+                <h1 class="clock">00:00</h1>
+                <div class="flex alarm-display">
+                    <i class="fa-solid fa-bell"></i>
+                    <p class="alarm"></p>
+                </div>
+                <div class="flex alarm-input">
+                    <input
+                        type="text"
+                        maxlength="2"
+                        class="hour"
+                        placeholder="HH"
+                    >
+                    <input
+                        type="text"
+                        maxlength="2"
+                        class="minute"
+                        placeholder="MM"
+                    >
+                    <button class="set-alarm">Set Alarm</button>
+                </div>
+            </section>
+        </main>
+    </body>
